@@ -18,5 +18,8 @@
     <ClCompile Include="updown.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2차원배열연습.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
