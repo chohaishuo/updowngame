@@ -34,11 +34,7 @@ int main()
 	int (*fp[4])(int, int) = { add, sub, mul, div };
 	int res = 0;
 
-	if(funcNumber==0){ res = add(num1, num2); }
-	else if (funcNumber == 1) { res = sub(num1, num2); }
-	else if (funcNumber == 2) { res = mul(num1, num2); }
-	else if (funcNumber == 3) { res = div(num1, num2); }
-
+	res = fp[funcNumber](num1, num2);
 
 	printf("%d ", res);
 
